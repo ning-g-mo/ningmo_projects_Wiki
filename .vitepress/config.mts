@@ -12,18 +12,18 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/zh/' },
-      { text: '项目', link: '/zh/projects' },
-      { text: '文档', link: '/zh/docs' }
+      { text: '首页', link: '/' },
+      { text: '项目', link: '/projects' },
+      { text: '文档', link: '/docs' }
     ],
 
     sidebar: [
       {
         text: '项目',
         items: [
-          { text: 'leaves基础互通优化包', link: '/zh/leaves/index' },
-          { text: 'bellcommand', link: '/zh/bellcommand/index' },
-          { text: 'geysermenu', link: '/zh/geysermenu/index' }
+          { text: 'leaves基础互通优化包', link: '/projects/leaves/index' },
+          { text: 'bellcommand', link: '/projects/bellcommand/index' },
+          { text: 'geysermenu', link: '/projects/geysermenu/index' }
         ]
       }
     ],
