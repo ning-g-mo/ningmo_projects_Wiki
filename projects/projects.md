@@ -10,15 +10,15 @@ features:
     details: 基于leavesMC核心的geyser基础互通优化包，目的在于基础互通优化，让基岩版更加友好。
     link: /projects/leaves/index
     icon: 
-      src: /projects/leaves/img/leaves.png
+      src: /leaves/img/leaves.png
   - title: bellcommand
     details: 一个轻量级命令物品插件，可以实现菜单物品，它支持floodgate玩家执行另一个命令。
     link: /projects/bellcommand/index
     icon: 
-      src: /projects/bellcommand/img/bellcommand.png
+      src: /bellcommand/img/bellcommand.png
   - title: geysermenu
     details: 一个轻量级geyser表单插件，仅支持基岩版玩家。
     link: /projects/geysermenu/index
     icon: 
-      src: /projects/geysermenu/img/geysermenu.png
+      src: /geysermenu/img/geysermenu.png
 ---

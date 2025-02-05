@@ -7,9 +7,13 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   title: "柠枺",
   description: "柠枺的项目及文档",
+
   themeConfig: {
     logo: '/logo.png',
-
+    editLink: {
+      pattern: 'https://github.com/nimg-g-mo/nimgmo_projects_Wiki:path',
+      text: '在 GitHub 上编辑此页'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
