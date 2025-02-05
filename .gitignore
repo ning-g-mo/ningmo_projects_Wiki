@@ -1,0 +1,5 @@
+# vitepress忽略文件
+.vitepress/cache
+.vitepress/dist
+.vitepress/theme
+.idea
