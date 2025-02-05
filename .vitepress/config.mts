@@ -32,7 +32,7 @@ export default defineConfig({
       copyright: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">新ICP备2024015133号-2</a>'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ning-g-mo/ningmo_projects_Wiki' }
     ]
   }
 })
