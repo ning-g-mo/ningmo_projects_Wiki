@@ -7,7 +7,9 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   title: "柠枺",
   description: "柠枺的项目及文档",
-
+  sitemap: {
+    hostname: 'https://ningmo.fun'
+  },
   themeConfig: {
     logo: '/logo.png',
     editLink: {
@@ -25,12 +27,16 @@ export default defineConfig({
       {
         text: '项目',
         items: [
-          { text: 'leaves基础互通优化包', link: '/projects/leaves/index' },
-          { text: 'bellcommand', link: '/projects/bellcommand/index' },
-          { text: 'geysermenu', link: '/projects/geysermenu/index' }
+          { text: 'leaves基础互通优化包', link: '/projects/leaves/index' ,
+             items: [
+              { text: '介绍', link: '/projects/leaves/index' },
+             ]
+          }
         ]
-      }
-    ],
+          },
+        { text: 'bellcommand', link: '/projects/bellcommand/index' },
+        { text: 'geysermenu', link: '/projects/geysermenu/index' }
+      ],
     footer: {
       message: 'Copyright © 2025-present 柠枺',
       copyright: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">新ICP备2024015133号-2</a>'
