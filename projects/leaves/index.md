@@ -28,3 +28,4 @@ footer: true
 ## 下载&帮助
 - [mineBBS](https://www.minebbs.com/resources/1-21-1-21-1-yc-leaves-tpa-home.9012/)
 - [QQ群](https://qm.qq.com/q/w48NMMkSze)
+- [123云盘](https://www.123pan.com/s/zcTSVv-rrgO3.html)

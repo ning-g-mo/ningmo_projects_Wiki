@@ -30,6 +30,8 @@ export default defineConfig({
           { text: 'leaves基础互通优化包', link: '/projects/leaves/index' ,
              items: [
               { text: '介绍', link: '/projects/leaves/index' },
+              { text: '安装', link: '/projects/leaves/install' },
+              { text: '常用命令', link: '/projects/leaves/commands' },
              ]
           }
         ]
