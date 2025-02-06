@@ -19,28 +19,37 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '项目', link: '/projects' },
+      { text: '项目',
+        items: [
+          { text: 'leaves基础互通优化包', link: '/projects/leaves/index' },
+          { text: 'bellcommand', link: '/projects/bellcommand/index' },
+          { text: 'geysermenu', link: '/projects/geysermenu/index' }
+        ]
+      },
       { text: '文档', link: '/docs' }
     ],
 
     sidebar: [
       {
         text: '项目',
+        collapsed: false,
         items: [
-          { text: 'leaves基础互通优化包', link: '/projects/leaves/index' ,
-             items: [
+          { text: 'leaves基础互通优化包',
+            collapsed: true,
+            items: [
               { text: '介绍', link: '/projects/leaves/index' },
               { text: '安装', link: '/projects/leaves/install' },
               { text: '常用命令', link: '/projects/leaves/commands' },
               { text: 'tab(侧边栏)配置', link: '/projects/leaves/tab' },
               { text: 'authme登录插件配置', link: '/projects/leaves/authme' },
              ]
-          }
+            },
+          { text: 'bellcommand', link: '/projects/bellcommand/index' },
+          { text: 'geysermenu', link: '/projects/geysermenu/index' }
+    
         ]
-          },
-        { text: 'bellcommand', link: '/projects/bellcommand/index' },
-        { text: 'geysermenu', link: '/projects/geysermenu/index' }
-      ],
+      },
+    ],
     footer: {
       message: 'Copyright © 2025-present 柠枺',
       copyright: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">新ICP备2024015133号-2</a>'
