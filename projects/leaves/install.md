@@ -40,11 +40,11 @@ apt-get install openjdk-21-jdk
 
 进入解压后的目录，输入以下命令：
 
-```sell
+```shell
 #Linux系统
 sh 启动服务器.sh
 ```
-```
+```bat
 #Windows系统
 sh 启动服务器.bat
 ```
