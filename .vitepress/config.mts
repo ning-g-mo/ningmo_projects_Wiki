@@ -35,7 +35,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'leaves基础互通优化包',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '介绍', link: '/projects/leaves/index' },
               { text: '安装', link: '/projects/leaves/install' },
@@ -46,11 +46,12 @@ export default defineConfig({
             },
           { text: 'bellcommand', link: '/projects/bellcommand/index' },
           { text: 'geysermenu',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '介绍', link: '/projects/geysermenu/index' },
               { text: '快速入门', link: '/projects/geysermenu/getting-started' },
               { text: '配置详解', link: '/projects/geysermenu/configuration' },
+              { text: '图标系统', link: '/projects/geysermenu/icons' },
               { text: '命令与权限', link: '/projects/geysermenu/commands-permissions' },
               { text: '变量支持', link: '/projects/geysermenu/placeholders' },
               ]
