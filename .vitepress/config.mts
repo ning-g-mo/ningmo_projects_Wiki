@@ -16,6 +16,13 @@ export default defineConfig({
       pattern: 'https://github.com/nimg-g-mo/nimgmo_projects_Wiki:path',
       text: '在 GitHub 上编辑此页'
     },
+    lastUpdated: {
+      text: '上次更新',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -26,13 +33,17 @@ export default defineConfig({
           { text: 'geysermenu', link: '/projects/geysermenu/index' }
         ]
       },
-      { text: '文档', link: '/docs' }
+      { text: '文档',
+        items: [
+          { text: 'GeyserExtras', link: '/docs/geyserextras/index' },
+        ]
+      }
     ],
 
     sidebar: [
       {
         text: '项目',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'leaves基础互通优化包',
             collapsed: false,
@@ -58,6 +69,24 @@ export default defineConfig({
            }
         ]
       },
+      {
+        text: '文档',
+        collapsed: false,
+        items: [
+          { text: 'GeyserExtras',
+            collapsed: true,
+            items: [
+              { text: '文档首页', link: '/docs/geyserextras/index' },
+              { text: '安装', 
+                items: [
+                  { text: '作为插件安装', link: '/docs/geyserextras/instalation/plugins' },
+                  { text: '作为独立版安装', link: '/docs/geyserextras/instalation/Standalone' },
+                ]
+              },
+            ]
+          },
+        ]
+      }
     ],
     footer: {
       message: 'Copyright © 2025-present 柠枺',
